@@ -25,3 +25,8 @@ Example:
 ``` bash
 $ vue init gengjiawen/koa-scaffold my-project
 ```
+
+### License
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2017-present, Jiawen (Daniel) Geng
