@@ -1,0 +1,11 @@
+{
+  "name": "koa-scaffold",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "very convenient",
+  "scripts": {
+  },
+  "devDependencies": {
+    "vue-cli": "^2.9.1"
+  }
+}
