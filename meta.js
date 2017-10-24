@@ -16,5 +16,6 @@ module.exports = {
       "message": "Author"
     },
   },
+  "skipInterpolation": ["src/**/*.vue", "node_modules/**"],
   "completeMessage": "To get started:\n\n  Please look to README.md, have fun :) "
 };

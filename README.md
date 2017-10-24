@@ -12,6 +12,7 @@ $ npm install -g vue-cli
 * Hot reload with nodemon
 * ES 6 ready with babel
 * include koa-router and other frequently used koa npm package.
+* Eslint support
 
 ### Usage
 
