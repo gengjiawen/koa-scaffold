@@ -23,5 +23,5 @@ app.use(router.routes())
 
 const port = 3000;
 app.listen(port, () => {
-    console.log('server running http://localhost:${port}');
+    console.log(`server running http://localhost:${port}`);
 });
