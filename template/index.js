@@ -1,8 +1,11 @@
 import Koa from 'koa';
 import Router from 'koa-router';
+import bodyParser from 'koa-bodyparser';
 import cors from 'kcors';
 
 const app = new Koa();
+
+app.user(bodyParser());
 
 app.use((ctx, next) => {
   const start = new Date();
