@@ -2,6 +2,7 @@ import * as Koa from 'koa'
 import * as Router from '@koa/router'
 import * as cors from '@koa/cors'
 import { koaBody } from 'koa-body'
+import * as path from 'path'
 
 const app = new Koa()
 
@@ -18,6 +19,12 @@ const router = new Router()
 router.get('/', async (ctx: Koa.Context) => {
   ctx.body = 'Hello world'
 })
+
+// serve frontend project for dev, this needs to be in cdn in production mode
+const fe = path.join(__dirname, '../fe', 'dist')
+const serve = require('koa-static')
+const mount = require('koa-mount')
+app.use(mount('/public', serve(fe)))
 
 app.use(cors())
 app.use(router.routes()).use(router.allowedMethods())
