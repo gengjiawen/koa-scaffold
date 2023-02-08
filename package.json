@@ -1,5 +1,5 @@
 {
-  "name": "koa-scoffold",
+  "name": "koa-scaffold",
   "version": "0.0.1",
   "description": "my praiseworthy project",
   "repository": {
@@ -10,7 +10,6 @@
   "license": "MIT",
   "author": "jiawen geng <technicalcute@gmail.com>",
   "scripts": {
-    "start": "tsc -w",
     "server": "nodemon --exec ts-node libs/index.ts",
     "prepare": "husky install",
     "clean": "rimraf build",

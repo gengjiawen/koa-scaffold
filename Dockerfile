@@ -13,5 +13,8 @@ RUN npm install -g pnpm && pnpm install --no-prefer-frozen-lockfile
 # Copy the rest of the application code to the container
 COPY . .
 
+ENV NODE_ENV=production
+RUN pnpm build
+
 # Specify the command to run the application when the container starts
-CMD [ "pnpm", "start" ]
+CMD ["node", "build/index.js"]
