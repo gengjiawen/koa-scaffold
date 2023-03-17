@@ -4,7 +4,7 @@ import * as cors from '@koa/cors'
 import { koaBody } from 'koa-body'
 import * as path from 'path'
 
-const app = new Koa()
+export const app = new Koa()
 
 app.use(require('koa-compress')())
 
@@ -30,6 +30,8 @@ app.use(cors())
 app.use(router.routes()).use(router.allowedMethods())
 
 const port = 3000
-app.listen(port, () => {
-  console.log(`server running http://localhost:${port}`)
-})
+if (process.env?.NODE_ENV !== 'test') {
+  app.listen(port, () => {
+    console.log(`server running http://localhost:${port}`)
+  })
+}
