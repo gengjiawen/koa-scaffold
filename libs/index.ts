@@ -21,10 +21,16 @@ router.get('/', async (ctx: Koa.Context) => {
 })
 
 // serve frontend project for dev, this needs to be in cdn in production mode
+// only use this if you are want to ship small things
 const fe = path.join(__dirname, '../fe', 'dist')
 const serve = require('koa-static')
 const mount = require('koa-mount')
 app.use(mount('/public', serve(fe)))
+// Set up a catch-all route for the FE app
+router.get(/.*/, async (ctx) => {
+  ctx.type = 'html'
+  ctx.body = require('fs').createReadStream(path.join(fe, 'index.html'))
+})
 
 app.use(cors())
 app.use(router.routes()).use(router.allowedMethods())
