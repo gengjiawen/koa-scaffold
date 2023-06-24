@@ -1,12 +1,15 @@
+[![Open in Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/?workspaceClass=g1-large&editor=code#https://github.com/gengjiawen/koa-scaffold)
+
+
 ## Setup
 
-## Install deps
+### Install deps
 
 ```
 pnpm i
 ```
 
-## Run dev server
+### Run dev server
 
 ```
 npm run server
