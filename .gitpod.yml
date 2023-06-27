@@ -1,7 +1,7 @@
 tasks:
   - init: pnpm i
     command: pnpm run server
-  - init: npm i -g npm-check-updates
+  - init: pnpm i -g npm-check-updates
 
 vscode:
   extensions:
