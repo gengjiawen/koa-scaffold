@@ -16,9 +16,6 @@ dependencies:
   '@types/koa__cors':
     specifier: 4.0.0
     version: 4.0.0
-  '@types/koa__multer':
-    specifier: ^2.0.4
-    version: 2.0.4
   '@types/koa__router':
     specifier: 12.0.0
     version: 12.0.0
@@ -1099,12 +1096,6 @@ packages:
 
   /@types/koa__cors@4.0.0:
     resolution: {integrity: sha512-qpwswNgQ2GxiDGNnKbDSBY5XmQTVJ6fspNvInLsAJ+jSwINxihvVzblj5anujNBg2BtL0xpUrcIt3UYwGzu05A==}
-    dependencies:
-      '@types/koa': 2.13.6
-    dev: false
-
-  /@types/koa__multer@2.0.4:
-    resolution: {integrity: sha512-WRkshXhE5rpYFUbbtAjyMhdOOSdbu1XX+2AQlRNM6AZtgxd0/WXMU4lrP7e9tk5HWVTWbx8DOOsVBmfHjSGJ4w==}
     dependencies:
       '@types/koa': 2.13.6
     dev: false

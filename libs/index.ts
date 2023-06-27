@@ -3,7 +3,6 @@ import * as Router from '@koa/router'
 import * as cors from '@koa/cors'
 import { koaBody } from 'koa-body'
 import * as path from 'path'
-import multer from '@koa/multer'
 
 export const app = new Koa()
 
@@ -17,6 +16,7 @@ router.get('/', async (ctx: Koa.Context) => {
   ctx.body = 'Hello world'
 })
 
+const multer = require('@koa/multer')
 const upload = multer({ dest: 'uploads/' }) // Uploads will be stored in the 'uploads' directory
 
 // testing using curl -X POST -F "file=@/path/to/your/file" http://localhost:3000/upload, like curl -X POST -F "file=@README.md" http://localhost:3000/upload
