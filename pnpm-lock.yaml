@@ -37,6 +37,9 @@ dependencies:
   koa-static:
     specifier: ^5.0.0
     version: 5.0.0
+  multer:
+    specifier: 1.4.5-lts.1
+    version: 1.4.5-lts.1
 
 devDependencies:
   '@types/jest':
