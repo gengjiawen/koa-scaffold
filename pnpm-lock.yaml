@@ -15,8 +15,8 @@ dependencies:
     specifier: ^12.0.0
     version: 12.0.0
   '@types/koa':
-    specifier: ^2.13.6
-    version: 2.13.6
+    specifier: ^2.13.8
+    version: 2.13.8
   '@types/koa__cors':
     specifier: 4.0.0
     version: 4.0.0
@@ -1067,11 +1067,11 @@ packages:
   /@types/koa-compose@3.2.5:
     resolution: {integrity: sha512-B8nG/OoE1ORZqCkBVsup/AKcvjdgoHnfi4pZMn5UwAPCbhk/96xyv284eBYW8JlQbQ7zDmnpFr68I/40mFoIBQ==}
     dependencies:
-      '@types/koa': 2.13.6
+      '@types/koa': 2.13.8
     dev: false
 
-  /@types/koa@2.13.6:
-    resolution: {integrity: sha512-diYUfp/GqfWBAiwxHtYJ/FQYIXhlEhlyaU7lB/bWQrx4Il9lCET5UwpFy3StOAohfsxxvEQ11qIJgT1j2tfBvw==}
+  /@types/koa@2.13.8:
+    resolution: {integrity: sha512-Ugmxmgk/yPRW3ptBTh9VjOLwsKWJuGbymo1uGX0qdaqqL18uJiiG1ZoV0rxCOYSaDGhvEp5Ece02Amx0iwaxQQ==}
     dependencies:
       '@types/accepts': 1.3.5
       '@types/content-disposition': 0.5.5
@@ -1086,13 +1086,13 @@ packages:
   /@types/koa__cors@4.0.0:
     resolution: {integrity: sha512-qpwswNgQ2GxiDGNnKbDSBY5XmQTVJ6fspNvInLsAJ+jSwINxihvVzblj5anujNBg2BtL0xpUrcIt3UYwGzu05A==}
     dependencies:
-      '@types/koa': 2.13.6
+      '@types/koa': 2.13.8
     dev: false
 
   /@types/koa__router@12.0.0:
     resolution: {integrity: sha512-S6eHyZyoWCZLNHyy8j0sMW85cPrpByCbGGU2/BO4IzGiI87aHJ92lZh4E9xfsM9DcbCT469/OIqyC0sSJXSIBQ==}
     dependencies:
-      '@types/koa': 2.13.6
+      '@types/koa': 2.13.8
     dev: false
 
   /@types/mime@3.0.1:
@@ -2906,7 +2906,7 @@ packages:
     dependencies:
       '@types/co-body': 6.1.0
       '@types/formidable': 2.0.5
-      '@types/koa': 2.13.6
+      '@types/koa': 2.13.8
       co-body: 6.1.0
       formidable: 2.0.1
       zod: 3.19.1
