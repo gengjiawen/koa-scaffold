@@ -21,8 +21,8 @@ dependencies:
     specifier: 4.0.0
     version: 4.0.0
   '@types/koa__router':
-    specifier: 12.0.0
-    version: 12.0.0
+    specifier: 12.0.3
+    version: 12.0.3
   koa:
     specifier: ^2.14.2
     version: 2.14.2
@@ -973,8 +973,8 @@ packages:
       '@types/koa': 2.13.10
     dev: false
 
-  /@types/koa__router@12.0.0:
-    resolution: {integrity: sha512-S6eHyZyoWCZLNHyy8j0sMW85cPrpByCbGGU2/BO4IzGiI87aHJ92lZh4E9xfsM9DcbCT469/OIqyC0sSJXSIBQ==}
+  /@types/koa__router@12.0.3:
+    resolution: {integrity: sha512-5YUJVv6NwM1z7m6FuYpKfNLTZ932Z6EF6xy2BbtpJSyn13DKNQEkXVffFVSnJHxvwwWh2SAeumpjAYUELqgjyw==}
     dependencies:
       '@types/koa': 2.13.10
     dev: false
