@@ -16,6 +16,12 @@ router.get('/', async (ctx: Koa.Context) => {
   ctx.body = 'Hello world'
 })
 
+router.post('/echo', async (ctx: Koa.Context) => {
+  console.log(`headers`, ctx.request.headers)
+  console.log(`body`, ctx.request.body)
+  ctx.body = ctx.request.body
+})
+
 const multer = require('@koa/multer')
 const upload = multer({ dest: 'uploads/' }) // Uploads will be stored in the 'uploads' directory
 
