@@ -49,8 +49,8 @@ importers:
         version: 1.4.5-lts.1
     devDependencies:
       '@types/jest':
-        specifier: 29.5.7
-        version: 29.5.7
+        specifier: 29.5.14
+        version: 29.5.14
       '@types/node':
         specifier: 20.10.6
         version: 20.10.6
@@ -497,8 +497,8 @@ packages:
   '@types/istanbul-reports@3.0.3':
     resolution: {integrity: sha512-1nESsePMBlf0RPRffLZi5ujYh7IH1BWL4y9pr+Bn3cJBdxz+RTP8bUFljLz9HvzhhOSWKdyBZ4DIivdL6rvgZg==}
 
-  '@types/jest@29.5.7':
-    resolution: {integrity: sha512-HLyetab6KVPSiF+7pFcUyMeLsx25LDNDemw9mGsJBkai/oouwrjTycocSDYopMEwFhN2Y4s9oPyOCZNofgSt2g==}
+  '@types/jest@29.5.14':
+    resolution: {integrity: sha512-ZN+4sdnLUbo8EVvVc2ao0GFW6oVrQRPn4K2lglySj7APvSrgzxHiNNK99us4WDMi57xxA2yggblIAMNhXOotLQ==}
 
   '@types/keygrip@1.0.4':
     resolution: {integrity: sha512-/tjWYD8StMrINelsrHNmpXceo9s3/Y22AzePH1qCvXIgmz/aQp2YFFr6HqhNQVIOdcvaVyp5GS+yjHGuF7Rwsg==}
@@ -2761,7 +2761,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-report': 3.0.2
 
-  '@types/jest@29.5.7':
+  '@types/jest@29.5.14':
     dependencies:
       expect: 29.7.0
       pretty-format: 29.7.0
