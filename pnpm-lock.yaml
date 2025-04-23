@@ -15,8 +15,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2(multer@1.4.5-lts.1)
       '@koa/router':
-        specifier: ^12.0.0
-        version: 12.0.1
+        specifier: ^13.1.0
+        version: 13.1.0
       '@types/koa':
         specifier: ^2.15.0
         version: 2.15.0
@@ -395,10 +395,9 @@ packages:
     peerDependencies:
       multer: '*'
 
-  '@koa/router@12.0.1':
-    resolution: {integrity: sha512-ribfPYfHb+Uw3b27Eiw6NPqjhIhTpVFzEWLwyc/1Xp+DCdwRRyIlAUODX+9bPARF6aQtUu1+/PHzdNvRzcs/+Q==}
-    engines: {node: '>= 12'}
-    deprecated: Use v12.0.2 or higher to fix the vulnerability issue
+  '@koa/router@13.1.0':
+    resolution: {integrity: sha512-mNVu1nvkpSd8Q8gMebGbCkDWJ51ODetrFvLKYusej+V0ByD4btqHYnPIzTBLXnQMVUlm/oxVwqmWBY3zQfZilw==}
+    engines: {node: '>= 18'}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2684,15 +2683,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@koa/router@12.0.1':
+  '@koa/router@13.1.0':
     dependencies:
-      debug: 4.3.4(supports-color@5.5.0)
       http-errors: 2.0.0
       koa-compose: 4.1.0
-      methods: 1.1.2
       path-to-regexp: 6.3.0
-    transitivePeerDependencies:
-      - supports-color
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
